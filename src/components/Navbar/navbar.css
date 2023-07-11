@@ -1,0 +1,117 @@
+.NavbarItems{
+    display: flex;
+    justify-content: space-between;
+    background-color:#222 ;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo1{
+    font-family: "Poppins", sans-serif;
+    padding:2vw;
+    color: #E31C25;
+    justify-self: start;
+    font-size: 2.5vw;
+    font-weight: 550;
+    text-shadow:0 5px 15px rgba(0, 0, 0, 0.978);
+}
+
+.logo1:hover{
+    color:#E31C25;
+}
+
+.navlist a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    grid-gap: 20px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.nav-links{
+    color:white;
+    white-space: nowrap;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: 1.2vw;
+    text-decoration: none;
+}
+
+.nav-links:hover{
+    text-decoration: none;
+    color:#B50717;
+    transition: all 0.2s ease-in-out;
+    text-shadow:0 5px 15px rgb(0, 0, 0);
+}
+
+
+
+.fa-bars,
+.fa-times{
+    cursor: pointer;
+    color:white;
+    font-size: 5vw;
+    padding-right:5vw;
+}
+
+.menu-icons{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .logo1{
+        padding: 3vw;
+        font-family: "Poppins", sans-serif;
+        justify-self: start;
+        font-size: 5vw;
+        font-weight: 550;
+        text-shadow:0 5px 15px rgba(0, 0, 0, 0.862);
+    }
+    .NavbarItems{
+        z-index:99;
+        align-items: center;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        background: #2a2a58e1 ;
+        box-shadow:0 8px 32px 0 rgba(31, 38, 135, .37) ;
+        backdrop-filter: blur(6px);
+        border-radius:13px ;
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        top:0;
+        left:-110%;
+        align-items:stretch;
+        padding:80px 0 30px 0;
+        margin:0;
+        z-index: -1;
+    }
+    .nav-menu.active{
+        left:0%;
+    }
+    .nav-links{
+        font-size: 2.5vw;
+        display: block;
+        widows: 100%;
+        padding:2rem 0;
+    }
+    .nav-links:hover{
+        background: rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(20px);
+    }
+    .menu-icons{
+        display: block;
+    }
+}

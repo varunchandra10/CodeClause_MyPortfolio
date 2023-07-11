@@ -1,0 +1,78 @@
+ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+li i {
+    padding: 7px;
+    align-items: center;
+    margin: 0px;
+}
+
+.line {
+    width: 10rem;
+    height: 0.2rem;
+    background: rgb(237, 78, 78);
+    border-radius: 5px;
+}
+
+.about-page {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 90px;
+    background-color: #1d1d1d;
+}
+
+.about {
+    margin: 3rem auto;
+    align-items: center;
+    width: 95%;
+    display: flex;
+}
+
+.leftsideimage {
+    width: 25%;
+    margin-left: 100px;
+}
+
+.image {
+    border-radius: 5px;
+    filter: brightness(75%);
+}
+
+.rightside-about {
+    width: 70%;
+    color: aliceblue;
+}
+
+.rightside-aboutcontent {
+    width: 90%;
+    margin: auto;
+}
+
+.rightside-aboutcontent h1 {
+    font-family: 'Voltaire';
+    font-size: 4rem;
+    color: whitesmoke;
+    margin: 0px;
+    text-shadow:0px 4px 10px rgba(255, 11, 11, 0.522) ;
+}
+
+.rightside-aboutcontent p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #BFBFBF;
+    font-size: 1.5vw;
+    padding-top: 10px;
+}
+
+.about-details ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3vw;
+}
+
+.about-details li i {
+    padding-left: 2rem;
+}

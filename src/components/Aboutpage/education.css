@@ -1,0 +1,69 @@
+.Education{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.education-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education1-content,
+.education2-content,
+.education3-content {
+    width: 100%;
+    padding: 15px;
+}
+
+.education-1,
+.education-2,
+.education-3{
+    margin: auto;
+    width: 30%;
+    background-color: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.545);
+    display: flex;
+}
+
+.education-1 h2,
+.education-2 h2,
+.education-3 h2{
+    margin: 0px;
+    font-size: 2.8rem;
+    font-family: 'Acme';
+    color: white;
+}
+
+
+.education-heading{
+    margin-top: 40px;
+    text-align: center;
+    font-family:'Voltaire';
+    color: #ececec;
+    text-shadow:0px 4px 10px rgba(255, 11, 11, 0.522) ;
+    font-size: 4.1rem;
+}
+
+.education-1 .year,
+.education-2 .year,
+.education-3 .year{
+    padding-top: 10px;
+    font-size: 1rem;
+    color:beige;
+}
+
+.education-1 p,
+.education-2 p,
+.education-3 p{
+    margin: 0px;
+    color: #ececec;
+}
+
+.education-1 .gpa,
+.education-2 .gpa,
+.education-3 .gpa{
+    font-size: 1rem;
+    color: beige;
+}

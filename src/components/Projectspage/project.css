@@ -1,0 +1,90 @@
+.projectspage {
+  padding-top: 90px;
+  height: 100vh;
+  width: 100%;
+  background-color: #1d1d1d;
+  margin: auto;
+}
+
+.projectheading {
+  text-align: center;
+  color: #ececec;
+  font-family: 'Acme';
+  font-size: 3vw;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-shadow:0px 4px 10px rgba(255, 11, 11, 0.522) ;
+}
+
+.project-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  width: 30%;
+  background-color: #BFBFBF;
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+
+}
+
+.project-card-content {
+  padding: 15px;
+}
+
+.project-card h2 {
+  margin: 0px;
+  font-size: 20px;
+  font-family: 'Akaya Telivigala';
+  color: #1d1d1d;
+}
+
+
+.project-card img {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.project-card p {
+  font-size: 12px;
+  font-weight: 450;
+  color: #1d1d1d;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: 'Vollkorn';
+}
+
+.project-card i {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 13px;
+  color: black;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+  background-color: #0056b3;
+}
