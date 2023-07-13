@@ -26,7 +26,7 @@ const Contact = () => {
                 <h2>My Address</h2>
                 <div className="line"></div>
                 <ul className='adrs-list'>
-                  <li><i className='fa-solid fa-location-dot' />233,Boys Hostel IIIT Trichy,Sethurapatti Tiruchirappalli,Tamil Nadu.</li>
+                  <li><i className='fa-solid fa-location-dot' />243,Boys Hostel IIIT Trichy,Sethurapatti Tiruchirappalli,Tamil Nadu.</li>
                 </ul>
               </div>
             </div>
