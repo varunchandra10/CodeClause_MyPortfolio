@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {NavLink} from 'react-router-dom';
 import './navbar.css';
 
 const NavBar = () => {
@@ -16,13 +17,13 @@ const NavBar = () => {
         </div>
         <ul className={state.clicked ? "nav-menu active" : "nav-menu"}>
           <li className='nav-list'>
-            <a href='/' className='nav-links'>Home </a>
-            <a href='/About' className='nav-links'>About Me </a>
-            <a href='/Projects' className='nav-links'>Projects </a>
-            <a href='/Work' className='nav-links'>Work Experience </a>
-            <a href='/Skills' className='nav-links'>Skills</a>
-            <a href={resume} rel="noopener noreferrer"  className='nav-links'>Resume </a>
-            <a href='/Contact' className='nav-links'>Contact </a>
+            <NavLink to='/' className='nav-links' activeclassname='active'>Home </NavLink>
+            <NavLink to='/About' className='nav-links' activeclassname='active'>About Me </NavLink>
+            <NavLink to='/Projects' className='nav-links' activeclassname='active'>Projects </NavLink>
+            <NavLink to='/Work' className='nav-links' activeclassname='active'>Work Experience </NavLink>
+            <NavLink to='/Skills' className='nav-links' activeclassname='active'>Skills</NavLink>
+            <NavLink to={resume} className='nav-links' activeclassname='active'>Resume </NavLink>
+            <NavLink to='/Contact' className='nav-links' activeclassname='active'>Contact </NavLink>
           </li>
         </ul>
       </nav>

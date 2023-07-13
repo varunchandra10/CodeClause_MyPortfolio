@@ -16,9 +16,10 @@ const ProjectPage = () => {
                             <div className="project-card-content">
                                 <h2>{project.title}</h2>
                                 <img src={project.image} alt={project.alt} width='100%' height='100%'/>
-                                <p><i>Description:</i>{project.description}</p>
-                                <p><i>Tools:</i>{project.Tools}</p>
-                                <a href={project.link} target="_blank" rel="noopener noreferrer">Visit Website</a>
+                                <p><i>Description: </i> {project.description}</p>&nbsp;
+                                <p><i>Tools: </i> {project.Tools}</p>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">Visit Website</a>&nbsp; &nbsp;
+                                <a href={project.github} target="_blank" rel="noopener noreferrer" className='githublink'><i className="fa-brands fa-github"/>&nbsp;GitHub</a>
                             </div>
                         </div>
                     ))}

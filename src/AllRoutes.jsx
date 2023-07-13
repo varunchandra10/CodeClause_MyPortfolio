@@ -7,6 +7,7 @@ import ProjectPage from './components/Projectspage/Project';
 import Work from './components/InternPage/Intern';
 import Contact from './components/Contactpage/Contact';
 import Skills from './components/Skillspage/Skills';
+
 const AllRoutes = () => {
   return (
     <Routes>
