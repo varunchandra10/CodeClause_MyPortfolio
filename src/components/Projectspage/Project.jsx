@@ -1,5 +1,5 @@
 import React from 'react';
-import projects from './projectinfo'
+import projects from './projectinfo';
 import Navbar from '../Navbar/navbar';
 
 import './project.css';
@@ -18,8 +18,8 @@ const ProjectPage = () => {
                                 <img src={project.image} alt={project.alt} width='100%' height='100%'/>
                                 <p><i>Description: </i> {project.description}</p>&nbsp;
                                 <p><i>Tools: </i> {project.Tools}</p>
-                                <a href={project.link} target="_blank" rel="noopener noreferrer">Visit Website</a>&nbsp; &nbsp;
-                                <a href={project.github} target="_blank" rel="noopener noreferrer" className='githublink'><i className="fa-brands fa-github"/>&nbsp;GitHub</a>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer"><i className='bx bx-link'></i>Demo</a>&nbsp; &nbsp;
+                                <a href={project.github} target="_blank" rel="noopener noreferrer" className='githublink'><i className='bx bxl-github'></i>&nbsp;GitHub</a>
                             </div>
                         </div>
                     ))}

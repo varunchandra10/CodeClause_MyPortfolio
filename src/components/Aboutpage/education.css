@@ -1,10 +1,9 @@
-/* Default styles */
-.Education {
+.Education, .Certificate {
   width: 100%;
   margin-bottom: 3%;
 }
 
-.education-card {
+.education-card, .certificate-card {
   display: flex;
   flex-wrap: wrap;
   padding-top: 30px;
@@ -12,34 +11,55 @@
 
 .education1-content,
 .education2-content,
-.education3-content {
+.education3-content,
+.certificate1-content,
+.certificate2-content,
+.certificate3-content {
   width: 100%;
   padding: 20px;
 }
+
 
 .education-1,
 .education-2,
 .education-3 {
   margin: auto;
   width: 30%;
-  height: 180px;
+  height: 170px;
   background-color: none;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.545);
+  box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.767);
+  display: flex;
+}
+
+.certificate-1,
+.certificate-2,
+.certificate-3 {
+  margin: auto;
+  width: 30%;
+  height: auto;
+  background-color: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.767);
   display: flex;
 }
 
 .education-1 h2,
 .education-2 h2,
-.education-3 h2 {
+.education-3 h2,
+.certificate-1 h2,
+.certificate-2 h2,
+.certificate-3 h2{
   margin: 0px;
   font-size: 2.8rem;
   font-family: 'Acme';
   color: white;
 }
 
-.education-heading {
+.education-heading,
+.certificate-heading {
   margin-top: 40px;
   text-align: center;
   font-family: 'Voltaire';
@@ -50,7 +70,10 @@
 
 .education-1 .year,
 .education-2 .year,
-.education-3 .year {
+.education-3 .year,
+.certificate-1 .Time-line,
+.certificate-2 .Time-line,
+.certificate-3 .Time-line {
   padding-top: 10px;
   font-size: 1rem;
   color: beige;
@@ -58,7 +81,10 @@
 
 .education-1 p,
 .education-2 p,
-.education-3 p {
+.education-3 p,
+.certificate-1 p,
+.certificate-2 p,
+.certificate-3 p {
   margin: 0px;
   color: #ececec;
 }
@@ -70,12 +96,51 @@
   color:rgb(251, 72, 72) ;
 }
 
+.certificate-link{
+  margin-top: 10px;
+}
+
+.certificate-link a{
+  text-decoration: none !important;
+  background-color: rgb(228, 45, 45);
+  color: #ececec;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 1px solid rgb(228, 45, 45);
+}
+
+.certificate-link a:hover{
+  background-color: transparent;
+  transition: .3s ease-in-out;
+  box-shadow: 0px 1px 3px 1px rgba(251, 72, 72, 0.767);
+}
+
+
 /* Media query for smaller screens */
 @media only screen and (max-width: 768px) {
-
   .education-1,
   .education-2,
   .education-3 {
     width: 90%;
+    margin-top: 15px;
   }
+  
+  .education-card, .certificate-card {
+    padding-top: 20px;
+}
+}
+
+@media only screen and (max-width: 530px ){
+  .certificate-1,
+  .certificate-2,
+  .certificate-3{
+    width: 90%;
+    margin-top: 15px;
+  }
+
+  .education-card, .certificate-card {
+    padding-top: 10px;
+}
 }

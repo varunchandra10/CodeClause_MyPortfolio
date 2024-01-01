@@ -21,3 +21,20 @@ Link{
 a{
   text-decoration: none;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background:#3f3f3f ; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e31c26b9;
+  border-radius: 20px; 
+}
+
+
+
+/* box-shadow: 0px 2px 10px 1px rgba(255, 11, 11, 0.274); */

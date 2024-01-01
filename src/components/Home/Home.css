@@ -14,6 +14,7 @@
   height: 100vh;
   width: 100%;
 }
+
 .address-bar{
   width: 100%;
   background-color: grey;
@@ -26,7 +27,6 @@
 }
 
 .address-bar input{
-  pointer-events: none;
   flex-grow: 1;
   padding: 5px;
   border: none;
@@ -85,24 +85,61 @@
   padding: 10px;
   background-color: transparent;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   cursor:pointer;
+  background-color: #b50718c5;
 }
 
 .link-page:hover{
   text-decoration: none;
-  background-color: #b50718c5;
   border: none;
   color:#ffffff;
   transition: 0.3s ease-in-out;
   font-family:Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  transition: .3s ease-in-out;
+  box-shadow: 0px 1px 3px 1px rgba(251, 72, 72, 0.767);
 }
 
 .aboutpage-line{
   color:rgba(128, 128, 128, 0.405);
   padding-top: 10px;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
+.search-bar {
+  position:absolute;
+  top: 12%;
+  left: 10%;
+  width: 80%;
+  background-color: #2d2d2d;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgb(0, 0, 0);
+  z-index: 1;
+   display: flex;
+   gap: 6px;
+   justify-content: center;
+   align-items: center;
+}
+
+.search-bar p {
+  margin: 0;
+  color: #ececec;
+  font-size: 1.5rem;
+}
+
+.search-bar .search-link-page{
+  color:#ececec;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.search-link-page:hover{
+  background-color:#b50718c5;
+  padding: 4px;
+  border-radius: 4px;
+  transition: .5s ease-in-out;
+}

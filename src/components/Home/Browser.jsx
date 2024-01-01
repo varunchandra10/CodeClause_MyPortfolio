@@ -15,7 +15,7 @@ const Leftside = () => {
                         <span className='red-dot'></span>
                         <span className='yellow-dot'></span>
                         <span className='green-dot'></span>
-                        <input type='text' placeholder='https://www.example.com' />
+                        <input type='text' placeholder='Search for About, Experience, Projects, Skills, Contact' />
                     </div>
                         <h1 className='browser-heading'>{text}</h1>
                         <div className="home-heading">

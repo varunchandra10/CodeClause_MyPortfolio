@@ -16,97 +16,55 @@
   text-shadow: 0px 4px 10px rgba(255, 11, 11, 0.522);
 }
 
-.interests-skill-tool {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.interests-skill-tool-card-1 {
-  width: 45%;
-  margin: auto;
-}
-
-.interests-skill-tool-card-2 {
-  width: 45%;
-  margin: auto;
-}
-
-.interests-card-content,
-.skill-card-content,
-.tool-card-content {
+.skill-card-content {
   width: 100%;
   padding: 15px;
 }
 
 .skill-card {
+  width: 90%;
+  margin: auto;
   margin: auto;
   width: 90%;
   background-color: none;
   border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.545);
+  box-shadow: 0px 2px 6px 4px rgba(0, 0, 0, 0.788);
+  color: #ffffffbb;
 }
 
-.interests-card,
-.tool-card {
-  margin: auto;
-  width: 90%;
-  background-color: none;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.545);
-  padding-bottom: 30px;
+.skill-list{
+  margin-top: 10px;
+  padding: 10px;
 }
 
-.interests-card-content h2,
-.skill-card-content h2,
-.tool-card-content h2 {
-  margin: 0px;
-  font-size: 2.8rem;
-  font-family: 'Acme';
-  color: white;
+.skill-list-1{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.interest-list,
-.skill-list,
-.tools-list {
-  padding-top: 10px;
+.skill-list-1 i{
+  font-size: 90px;
+  border: 1px solid red;
+  padding: 15px 30px;
+  border-radius: 5px;
 }
 
-.interest-list li,
-.skill-list li,
-.tool-list li {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #ececec;
+.skill-list-1 i:hover{
+  box-shadow:0px 2px 6px 4px rgba(255, 11, 11, 0.545) ;
+  color: #fff;
+  cursor: pointer;
 }
+
+
 
 @media screen and (max-width: 600px) {
-  .interests-skill-tool {
-    width: 100%;
-    display: block;
+  .skill-list-1 i{
+    font-size: 40px;
+    border: 1px solid red;
+    padding: 10px 20px;
+    border-radius: 5px;
   }
 
-  .interests-skill-tool-card-1,
-  .interests-skill-tool-card-2 {
-    width: 80%;
-    height: auto;
-    margin: auto;
-  }
-
-
-  .interest-list,
-  .skill-list,
-  .tools-list {
-    padding-top: 10px;
-  }
-
-  .interest-list li,
-  .skill-list li,
-  .tool-list li {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #ececec;
-  }
 }

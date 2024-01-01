@@ -12,7 +12,7 @@ const Education = () => {
                             <div className='line'></div>
                             <p className='year'> DEC 2020 - current</p>
                             <p className='clg'>Indian Institute of Information Technology, Tiruchirappalli(IIITT).</p>
-                            <p className='branch'>Computer Science and Engineering. &nbsp; <i className='gpa'>CGPA: 8.36</i></p>
+                            <p className='branch'>Computer Science and Engineering. <br/> <i className='gpa'>CGPA: 8.36</i></p>
                         </div>
                     </div>
                     <div className='education-2'>
@@ -29,7 +29,7 @@ const Education = () => {
                             <h2>10th standard</h2>
                             <div className='line'></div>
                             <p className='year'> JUN 2014 - MAR 2018</p>
-                            <p className='clg'>Naveena Model High School, Hyderabad. &nbsp; <i className='gpa'>GPA: 8.7</i></p>
+                            <p className='clg'>Naveena Model High School, Hyderabad. <br/><i className='gpa'>GPA: 8.7</i></p>
                         </div>
                     </div>
                 </div>

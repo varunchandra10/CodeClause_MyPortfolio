@@ -4,6 +4,7 @@ import myimage from '../../assets/DSC02220.jpg';
 
 import Education from './Education';
 import './aboutpage.css';
+import Certificate from './Certificates';
 
 const About = () => {
   return (
@@ -30,6 +31,10 @@ const About = () => {
         </div>
         {/* ===================================================Education========================================= */}
         <Education />
+
+        {/* ===================================================Certificate========================================= */}
+        <Certificate/>
+
       </div>
     </>
   )
