@@ -3,6 +3,7 @@
   min-height: 100vh;
   padding-top: 90px;
   background-color: #1d1d1d;
+  padding-bottom: 100px;
 }
 
 .skills-page h1 {
@@ -55,6 +56,7 @@
   box-shadow:0px 2px 6px 4px rgba(255, 11, 11, 0.545) ;
   color: #fff;
   cursor: pointer;
+  transition: .5s ease-in-out;
 }
 
 

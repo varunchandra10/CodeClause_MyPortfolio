@@ -1,6 +1,6 @@
 .Browser-home-component{
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .browser{
@@ -11,8 +11,9 @@
 .browser-window {
   background-color:#1c1c1c;
   padding: 20px;
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  padding-bottom: 100px;
 }
 
 .address-bar{

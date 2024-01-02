@@ -22,6 +22,7 @@ li i {
     min-height: 100vh;
     overflow-x: hidden;
     padding-top: 90px;
+    padding-bottom: 100px;
     background-color: #1d1d1d;
 }
 
