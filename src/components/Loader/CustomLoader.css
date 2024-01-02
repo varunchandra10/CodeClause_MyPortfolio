@@ -16,7 +16,7 @@
 .letter {
     margin: 0 5px;
     color: transparent;
-    background: linear-gradient(transparent 50%, red 50%);
+    background: linear-gradient(transparent 50%, #E31C25 50%);
     background-size: 100% 200%;
     animation: slide 1s linear infinite;
     -webkit-background-clip: text;
