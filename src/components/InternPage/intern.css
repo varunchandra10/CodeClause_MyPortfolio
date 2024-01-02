@@ -34,14 +34,14 @@
     background-color: none;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.545);
+    box-shadow: 0px 2px 6px 4px rgba(0, 0, 0, 0.788);
     display: flex;
   }
   
   .intern1-content,
   .intern2-content {
     width: 100%;
-    padding: 15px;
+    padding: 20px;
     margin: 0px;
     color: #ececec;
   }

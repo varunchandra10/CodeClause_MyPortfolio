@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'blanka';
+    src: url('../../../public/Blanka-Regular.otf');
+}
+
+.custom-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25rem;
+    font-family: 'blanka';
+    background-color: #2d2d2d;
+    height: 100vh;
+}
+
+.letter {
+    margin: 0 5px;
+    color: transparent;
+    background: linear-gradient(transparent 50%, red 50%);
+    background-size: 100% 200%;
+    animation: slide 1s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}

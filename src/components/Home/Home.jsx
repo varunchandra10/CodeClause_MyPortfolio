@@ -13,11 +13,11 @@ const Home = () => {
 
   const renderSearchBar = () => {
     const pages = [
-      { keywords: ['a','about'], page: '/About', label: 'About me' },
-      { keywords: ['p','projects'], page: '/Projects', label: 'Projects' },
-      { keywords: ['w','work','experience'], page: '/Work', label: 'Work Experience' },
-      { keywords: ['s','skills'], page: '/Skills', label: 'Skills' },
-      { keywords: ['c','contact'], page: '/Contact', label: 'Contact' },
+      { keywords: ['A','a','about'], page: '/About', label: 'About me' },
+      { keywords: ['P','p','projects'], page: '/Projects', label: 'Projects' },
+      { keywords: ['W','w','work','experience'], page: '/Work', label: 'Work Experience' },
+      { keywords: ['S','s','skills'], page: '/Skills', label: 'Skills' },
+      { keywords: ['C','c','contact'], page: '/Contact', label: 'Contact' },
     ];
 
     const matchedPage = pages.find((page) => {
