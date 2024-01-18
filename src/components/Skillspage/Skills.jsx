@@ -24,6 +24,7 @@ const Skills = () => {
                                 <li><i className='bx bxl-netlify' title='Netlify'></i></li>
                                 <li><i className='bx bxl-firebase' title='Firebase'></i></li>
                                 <li><i className='bx bxl-visual-studio' title='VS-Code'></i></li>
+                                <li><i className='bx bxl-figma' title='Figma'></i></li>
                             </ul>
                         </div>
                         {/* =============================================INTERESTS=========================================================== */}

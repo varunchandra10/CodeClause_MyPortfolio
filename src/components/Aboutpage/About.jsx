@@ -18,13 +18,13 @@ const About = () => {
           <div className='rightside-about'>
             <div className='rightside-aboutcontent'>
               <h1>About me </h1>
-              <p>Driven and enthusiastic developer with a deep passion for software and web development. Through extensive exploration of underlying concepts and their practical application in diverse projects, my love for these fields blossomed. I am an individual fueled by a strong desire to create innovative solutions and apply algorithms to tackle real-world challenges in various industries.</p>
+              <p>I am passionate about web development and strive to create engaging and user-friendly web pages. I continuously explore and try to stay updated with the latest technologies to apply this knowledge across a variety of projects and to get effective solutions.</p>
               <div className='about-details'>
-              <ul>
-                <li><i className='fa fa-birthday-cake' style={{color:'rgb(160, 115, 156'}}/>March-10th-2003</li>
-                <li><i className='fa-regular fa-envelope' style={{color:'rgb(212, 73, 73'}}/>kola.varunchandra29@gmail.com</li>
-                <li><i className='fa fa-phone'/>+91 9346101109</li>
-              </ul>
+                <ul>
+                  <li><i className='fa fa-birthday-cake' style={{ color: 'rgb(160, 115, 156' }} />March-10th-2003</li>
+                  <li><i className='fa-regular fa-envelope' style={{ color: 'rgb(212, 73, 73' }} />kola.varunchandra29@gmail.com</li>
+                  <li><i className='fa fa-phone' />+91 9346101109</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ const About = () => {
         <Education />
 
         {/* ===================================================Certificate========================================= */}
-        <Certificate/>
+        <Certificate />
 
       </div>
     </>
