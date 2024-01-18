@@ -11,9 +11,8 @@
 .browser-window {
   background-color:#1c1c1c;
   padding: 20px;
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
-  padding-bottom: 100px;
 }
 
 .address-bar{

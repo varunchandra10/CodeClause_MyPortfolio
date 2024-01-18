@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom';
 import './navbar.css';
 
 const NavBar = () => {
-  const resume = 'https://drive.google.com/file/d/14L0TDN_MerlTtjHcw78PSZ-4BKEIBWz3/view?usp=sharing';
+  const resume = 'https://drive.google.com/file/d/1BervcePduKLhHGPG4MbLHTK699zVU4fg/view?usp=sharing';
   const [state = { clicked: false }, setState] = useState();
   const handleClick = () => {
     setState({ clicked: !state.clicked })
