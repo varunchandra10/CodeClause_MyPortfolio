@@ -5,9 +5,19 @@ import aahladh from '../../assets/aahladh.png';
 import Queree from '../../assets/Queree.png';
 import whackamole from '../../assets/whackamole.png';
 import lensvally from '../../assets/lensvally.png';
-import Amazonclone from '../../assets/amazon-clone.png'
+import Amazonclone from '../../assets/amazon-clone.png';
+import PB from '../../assets/PB.png'
 
 const projectinfo = [
+  {
+    title: "Portfolio Builder",
+    image:PB,
+    alt:'Portfolio builder',
+    description: "  Developed a full-stack dynamic portfolio builder where users can input, update, and manage their details, generating a shareable link for their portfolio.",
+    Tools: "  ExpressJs, NodeJs for server; MongoDB, Firebase for storage; ReactJs, TailwindCSS for frontend, and Render, Netlify for deploying.",
+    link: "https://portfolio-builderr.netlify.app/",
+    github: "https://github.com/varunchandra10/Portfolio_Builder"
+  },
   {
     title: "Queree -The doubt asking platform",
     image:Queree,
